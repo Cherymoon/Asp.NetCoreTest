@@ -65,7 +65,7 @@ namespace SalesWebMvc.Controllers
             }
             return View(department);
         }
-
+        
         // GET: Departments/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
